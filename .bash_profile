@@ -6,6 +6,7 @@
 # Variables
 
 # Aliases
+alias ll='ls -l'
 
 # Functions
 profile_update(){
