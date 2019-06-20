@@ -9,6 +9,8 @@
 
 # Functions
 profile_update(){
-    RAW_LINK="http://"
+    RAW_LINK="https://raw.githubusercontent.com/ThePrankMonkey/bash_profile/master/.bash_profile"
+    curl -s $RAW_LINK >> ~/.bash_profile
+    source ~/.bash_profile
 }
 
