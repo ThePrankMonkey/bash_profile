@@ -7,6 +7,7 @@
 
 # Aliases
 alias ll='ls -l'
+alias record='script "record_`date +"%Y.%m.%dT%H.%M.%S"`.log"'
 
 # Functions
 profile_update(){
